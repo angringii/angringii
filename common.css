@@ -1,0 +1,135 @@
+/* 21861065 서아린 */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "맑은 고딕", "돋움";
+  font-size: 12px;
+  color: #444444;
+  background-color: #f3ede2;
+}
+@media only screen and (max-width: 954px) {
+body {
+  background-color: lightblue; /*초록색*/
+}
+}
+ul {
+  list-style-type:none;
+}
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #444444;
+}
+.clear {
+  clear:both;
+}
+/* ----- 헤더 ----- */
+header {
+  height: 128px;
+}
+header #top {
+  width: 990px;
+  margin: 0 auto;
+  /*border:solid 1px #0000ff;*/
+}
+header #logo {
+  float: left;
+  margin: 30px 0 5px 0;
+/*border:solid 1px #000000;*/
+}
+
+/* 상단메뉴 */
+header #top_menu {
+  float: right;
+  margin-top: 20px;
+/*border:solid 1px #000000;*/
+}
+
+/* 메인 메뉴 */
+header #main_menu {
+  height: 38px;
+  margin-top: 15px;
+  background-color: #469098;
+/*border:solid 1px #000000;*/
+}
+header #main_menu ul {
+  width: 990px;
+  margin:auto;
+/*border:solid 1px #000000;*/
+  padding-top: 12px;
+  text-align: center;
+}
+header #main_menu li {
+  display: inline;
+  margin: 0 57px;
+}
+header #main_menu a:link {
+  color: #d6c476;
+}
+header #main_menu a:visited {
+  color: #d6c476;
+}
+header #main_menu a:hover {
+  color: #d6c476;
+  font-weight: bold;
+}
+header #main_menu a:active {
+  color: #d6c476;
+}
+/* ----- 푸터 ------ */
+
+footer {
+  height: 200px;
+  margin-top: 40px;
+}
+footer #footer_menu_box {
+  height: 40px;
+  background-color: #469098;
+}
+footer #footer_menu {
+  width: 990px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+footer #footer_menu ul {
+  margin-left: 260px;
+}
+footer #footer_menu li {
+  display: inline;
+  margin-left: 20px;
+}
+footer #footer_menu a:link {
+  color: #d6c476;
+}
+footer #footer_menu a:hover {
+  color: #d6c476;
+}
+footer #footer_menu a:visited {
+  color: #d6c476;
+}
+footer #footer_menu a:active {
+  color: #d6c476;
+}
+footer #footer_box {
+  width: 990px;
+  margin: auto;
+}
+footer #footer_box div {
+  float: left;
+}
+footer #footer_box #footer_logo {
+  margin:40px 0 0 60px;
+}
+footer #footer_box #address {
+  margin: 30px 0 0 50px;
+}
+footer #footer_box #footer_banner {
+  margin: 35px 0 0 70px;
+}
+.contact table {
+  margin: 100px 0 100px 0;
+}
+.contact table tr {
+  text-align: left;
+}

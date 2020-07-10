@@ -1,0 +1,76 @@
+/* ----- 메인 콘텐츠 ------ */ /* 21861065 서아린 */
+section#main {
+  width: 990px;
+  margin: auto;
+}
+/* --- 메인 이미지 및 소개글 --- */
+section#hi {
+  width: 990px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+section#cat2 {
+  margin-top: 30px;
+}
+
+section#cat3 {
+  width: 236px;
+  float: left;
+  margin-top: 15px;
+}
+
+/* info */
+section#info {
+  width: 990px;
+  height: 0 auto;
+}
+section#info ul {
+  margin-bottom: 50px;
+}
+section#info li {
+  padding-top: 30px;
+}
+/* section#info li {
+  display: inline;;
+  padding:0 0 0 20px;
+  /* margin: 0 2px; */
+}
+section#special_shop img {
+  padding: 20px;
+  border: solid 1px #ccccccc;
+}
+section#special_banner {
+  float: left;
+  margin: 19px 0 0 5px;
+}
+section#special_banner div {
+  width: 392px;
+  height: 129px;
+  margin-top: 1px;
+}
+/* 대표작품 */
+section#new {
+  height: 400px;
+  margin-top: 20px;
+  border-top: solid 2px #469098;
+}
+section#new h3 {
+  margin: 20px 0 0 0;
+}
+section#new h3 span {
+  color: #469098;
+}
+
+section#new .item {
+  float: left;
+  text-align: center;
+  margin: 40px 0 0 90px;
+}
+section#new .item .subject {
+  margin-top: 10px;
+  color: #469098;
+}
+section#new .item .comment {
+  margin-top: 5px;
+  color: #888888;
+}
